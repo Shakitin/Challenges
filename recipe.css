@@ -1,0 +1,210 @@
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgba(255, 192, 203, 0.247);
+  line-height: 40px;
+  color: rgb(71, 70, 70);
+}
+
+.content{
+  background-color: white;
+  border: 30px solid white;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 30px;
+  border-radius: 36px;
+  font-size: large;
+  color: rgb(71, 70, 70);
+}
+
+.image{
+  max-width: 100%;
+  width: 1400px;
+}
+
+.Preparation{
+  border: 2px solid;
+  background-color: rgba(255, 192, 203, 0.171);
+  border-style: none;
+  padding: 5px 20px;
+  line-height: 40px;
+  border-radius: 20px;
+}
+
+#brown-heading{
+  color:hsl(14, 45%, 36%);
+}
+
+#purple-heading{
+  color: purple;
+}
+
+#purple-text{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.table{
+  line-height: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#value{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+li::marker{
+  color: hsl(14, 45%, 36%);
+}
+
+table{
+  line-height: 30px;
+}
+
+/* tr td{
+  border-bottom: 1px solid;
+} */
+
+/* Responsive Styles */
+
+@media screen and (max-width:1490px){
+  .heading{
+    font-size: 30px; 
+  }
+  .Preparation{
+    font-size: 18px;
+  }
+  #brown-heading{
+    font-size: 22px;
+  }
+  .content{
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width:1400px){
+  .heading{
+    font-size: 20px; 
+  }
+  .Preparation{
+    font-size: 17px;
+  }
+  #brown-heading{
+    font-size: 18px;
+  }
+  .content{
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width:375px){
+  .content{
+    border: white;
+    margin: 0 0;
+    padding: 0, 0;
+  }
+  body{
+    background-color: white;
+  }
+  .heading{
+    font-size: 30px; 
+  }
+  .Preparation{
+    font-size: 18px;
+  }
+  #brown-heading{
+    font-size: 22px;
+  }
+  .content{
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+  background-color: rgb(247, 231, 233 0.5);
+  border-style: solid;
+  border-width: 150px 500px;
+  border-color: rgb(247, 231, 233);
+  color: rgb(66, 64, 64);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.content{
+  border-color: rgb(92, 14, 14);
+  border-radius: 36px;
+  /* padding: 80px; */
+}
+
+.image{
+  max-width: 900px;
+  padding: 20px;
+}
+
+.introduction{
+  color: rgb(54, 54, 54);
+}
+
+hr{
+  color: grey;
+  opacity: 0.2;
+}
+
+.heading{
+  text-decoration: solid;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
